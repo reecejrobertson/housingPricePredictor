@@ -1,0 +1,337 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "ae97d6f2",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import numpy as np\n",
+    "from matplotlib import pyplot as plt\n",
+    "from sklearn.decomposition import PCA"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "bb0279e1",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import numpy as np\n",
+    "from matplotlib import pyplot as plt\n",
+    "from sklearn.decomposition import PCA\n",
+    "import pandas as pd"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "56d2d858",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "df = pd.read_csv(\"output.csv\")\n",
+    "display(df)\n",
+    "pca = np.pca"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "d03f68cf",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "df = pd.read_csv(\"Output.csv\")\n",
+    "display(df)\n",
+    "pca = np.pca"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "d210edaf",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "df = pd.read_csv(\"Output.csv\")\n",
+    "display(df)\n",
+    "data = df.drop('DATE').asarray()\n",
+    "pca = np.pca"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "a9e5ddeb",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "df = pd.read_csv(\"Output.csv\")\n",
+    "display(df)\n",
+    "data = df.drop('DATE').asarray()\n",
+    "print(data)\n",
+    "pca = np.pca"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "346281c0",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "df = pd.read_csv(\"Output.csv\")\n",
+    "display(df)\n",
+    "data = df.drop(col='DATE').asarray()\n",
+    "print(data)\n",
+    "pca = np.pca"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "7ab3c145",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "df = pd.read_csv(\"Output.csv\")\n",
+    "# display(df)\n",
+    "data = df.drop(col='DATE').asarray()\n",
+    "print(data)\n",
+    "pca = np.pca"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "e3e9b24a",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "df = pd.read_csv(\"Output.csv\")\n",
+    "# display(df)\n",
+    "data = df.drop_col('DATE').asarray()\n",
+    "print(data)\n",
+    "pca = np.pca"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "78806e01",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "df = pd.read_csv(\"Output.csv\")\n",
+    "# display(df)\n",
+    "data = df.drop('DATE').asarray()\n",
+    "print(data)\n",
+    "pca = np.pca"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "0dea4c6b",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "df = pd.read_csv(\"Output.csv\")\n",
+    "# display(df)\n",
+    "data = df.drop('DATE', axis=1).asarray()\n",
+    "print(data)\n",
+    "pca = np.pca"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "edd4a739",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "df = pd.read_csv(\"Output.csv\")\n",
+    "# display(df)\n",
+    "data = df.drop('DATE', axis=1).as_array()\n",
+    "print(data)\n",
+    "pca = np.pca"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "5b4c5672",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "df = pd.read_csv(\"Output.csv\")\n",
+    "# display(df)\n",
+    "data = df.drop('DATE', axis=1).to_numpy()\n",
+    "print(data)\n",
+    "pca = np.pca"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "a2a8db20",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "df = pd.read_csv(\"Output.csv\")\n",
+    "display(df)\n",
+    "data = df.drop('DATE', axis=1).to_numpy()\n",
+    "print(data)\n",
+    "pca = np.pca"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "f1d23c50",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "df = pd.read_csv(\"Output.csv\")\n",
+    "display(df)\n",
+    "data = df.drop('DATE', axis=1).to_numpy()\n",
+    "print(data)\n",
+    "pca_d = PCA(n_components=2).fit_transform(data)\n",
+    "pca\n",
+    "plt.plot(pca_d[0,:],pca_d[1,:], '.')\n",
+    "plt.show()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "238b0c2c",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "df = pd.read_csv(\"Output.csv\")\n",
+    "display(df)\n",
+    "data = df.drop('DATE', axis=1).to_numpy()\n",
+    "print(data)\n",
+    "pca_d = PCA(n_components=2).fit_transform(data)\n",
+    "plt.plot(pca_d[0,:],pca_d[1,:], '.')\n",
+    "plt.show()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "97fb2030",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "df = pd.read_csv(\"Output.csv\")\n",
+    "data = df.drop('DATE', axis=1).to_numpy()\n",
+    "pca_d = PCA(n_components=2).fit_transform(data)\n",
+    "print(pca_d.shape)\n",
+    "plt.plot(pca_d[0,:],pca_d[1,:], '.')\n",
+    "plt.show()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "5ea76b73",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "df = pd.read_csv(\"Output.csv\")\n",
+    "data = df.drop('DATE', axis=1).to_numpy()\n",
+    "pca_d = PCA(n_components=2).fit_transform(data)\n",
+    "print(pca_d.shape)\n",
+    "plt.plot(pca_d[:,0],pca_d[:,1], '.')\n",
+    "plt.show()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "cf378afd",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import numpy as np\n",
+    "from matplotlib import pyplot as plt\n",
+    "from sklearn.decomposition import PCA\n",
+    "import pandas as pd\n",
+    "import datetime\n",
+    "import gmmhmm as hmm\n",
+    "import MFCC"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "f1bdb53f",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import numpy as np\n",
+    "from matplotlib import pyplot as plt\n",
+    "from sklearn.decomposition import PCA\n",
+    "import pandas as pd\n",
+    "import datetime\n",
+    "# import gmmhmm as hmm\n",
+    "import MFCC"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "9e6b9c4e",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import numpy as np\n",
+    "from matplotlib import pyplot as plt\n",
+    "from sklearn.decomposition import PCA\n",
+    "import pandas as pd\n",
+    "import datetime\n",
+    "# import gmmhmm as hmm\n",
+    "# import MFCC"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "340f55ef",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "df = pd.read_csv(\"Output.csv\")\n",
+    "data = df.drop('DATE', axis=1).to_numpy()\n",
+    "pca_d = PCA(n_components=3).fit_transform(data)\n",
+    "ax = fig.add_subplot(projection='3d')\n",
+    "ax.scatter(pca_d[:,0],pca_d[:,1], pca_d[:,2])\n",
+    "plt.show()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "id": "a321c440",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "df = pd.read_csv(\"Output.csv\")\n",
+    "data = df.drop('DATE', axis=1).to_numpy()\n",
+    "pca_d = PCA(n_components=3).fit_transform(data)\n",
+    "fig = plt.figure()\n",
+    "ax = fig.add_subplot(projection='3d')\n",
+    "ax.scatter(pca_d[:,0],pca_d[:,1], pca_d[:,2])\n",
+    "plt.show()"
+   ]
+  }
+ ],
+ "metadata": {},
+ "nbformat": 4,
+ "nbformat_minor": 5
+}

@@ -1,0 +1,5 @@
+UTUR: Unemployment Rate
+UTSTHPI: Housing Price Index
+UTPCPI: Consumer Price Index
+MEHOINUSUTA672N: Median Household Income Utah
+UTRVAC: Utah Rental Vacancy Rate
